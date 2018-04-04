@@ -1,6 +1,9 @@
 var _ = require('lodash');
 var Bus = require('./PubSub');
 var setNested = require('./lib/set-nested');
+import Errors from "./Errors.js"
++import Model from "./Model.js"
++import Defaults from "./Defaults.js"
 
 class VueModel {
     constructor() {
