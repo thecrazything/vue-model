@@ -1,10 +1,10 @@
 var _ = require('lodash');
-var axios = require('axios');
-var Vue = require('vue');
+import axios from 'axios'
+import Vue from 'vue'
 require('promise.prototype.finally').shim();
 require('./lib/promise-delay');
 
-module.exports = class Model {
+export default {
     constructor(data, settings, classes) {
         this.classes = classes;
         this.settings = settings;
