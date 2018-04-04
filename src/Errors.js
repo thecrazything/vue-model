@@ -1,5 +1,5 @@
 var _ = require('lodash');
-import Vue from 'vue';
+import Vue from 'vue'
 
 export defaults {
 
