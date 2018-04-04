@@ -1,7 +1,7 @@
 var _ = require('lodash');
 import Vue from 'vue'
 
-export default {
+export default class Errors {
 
     constructor(errors) {
         this.set(errors);
