@@ -198,4 +198,4 @@ class VueModel {
     }
 }
 
-module.exports = new VueModel();
+export default new VueModel();
