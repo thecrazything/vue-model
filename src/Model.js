@@ -4,7 +4,7 @@ import Vue from 'vue'
 require('promise.prototype.finally').shim();
 require('./lib/promise-delay');
 
-export default {
+export default class Model  {
     constructor(data, settings, classes) {
         this.classes = classes;
         this.settings = settings;
